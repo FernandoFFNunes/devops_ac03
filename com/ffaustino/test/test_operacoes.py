@@ -1,5 +1,5 @@
-def func01(x):
+def func(x):
 	return x + 1
 
-def func02():
-	assert func01(1) == 2
+def test_func():
+	assert func(1) == 2
